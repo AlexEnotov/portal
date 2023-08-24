@@ -1,4 +1,4 @@
-<?php header("Refresh:10");?>
+
 	
 <!DOCTYPE html>
 <html lang="en">
