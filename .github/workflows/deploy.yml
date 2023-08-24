@@ -19,5 +19,3 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir:  /var/www/u2145242/data/www/portal02-test.ru
-
-name: Deploy
