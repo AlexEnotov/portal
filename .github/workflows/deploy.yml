@@ -16,4 +16,4 @@ jobs:
       - run: echo "$" > "$HOME/.ssh/key"
       - run: chmod 600 "$HOME/.ssh/key"
       # Deploy
-      - run: rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . u2145242@server109.hosting.reg.ru:/home/www/portal02-test.ru
+      - run: rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . u2145242@server109.hosting.reg.ru:~/www/portal02-test.ru
