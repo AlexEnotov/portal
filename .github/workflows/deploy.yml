@@ -1,17 +1,17 @@
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      # Setup key
-      - run: set -eu
-      - run: mkdir "$HOME/.ssh"
-      - run: echo "$" > "$HOME/.ssh/key"
-      - run: chmod 600 "$HOME/.ssh/key"
-      # Deploy
-      - run: rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . u2208459@u2208459.cp.regruhosting.ru:/var/www/u2208459/public_html/portal02-test.ru
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       # Setup key
+#       - run: set -eu
+#       - run: mkdir "$HOME/.ssh"
+#       - run: echo "$" > "$HOME/.ssh/key"
+#       - run: chmod 600 "$HOME/.ssh/key"
+#       # Deploy
+#       - run: rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . u2208459@u2208459.cp.regruhosting.ru:/var/www/u2208459/public_html/portal02-test.ru
