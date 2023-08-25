@@ -71,25 +71,24 @@ body {
 	display: flex;
 	width: 100%;
 	margin: auto 20px auto 0;
-	padding: 20px 0 40px 0;
+	padding: 20px 0 20px 0;
 }
-.menu nav a {
+.menu nav a.m {
 	display: flex;
 	width: 100%;
 	color: var(--light);
 	padding: 15px 0 15px 20px ;
 	font-size: 20px;
 }
-.menu nav a i.bx {
-	
+.menu nav a.m i.bx {
 	padding: 0 10px 0 0 ;
-	
 }
-.menu nav a:hover {
+.menu nav a.m:hover {
 	background: var(--grey);
 	color: var(--dark);
 
 }
+
 
 .menu2 {
 	display: flex;
