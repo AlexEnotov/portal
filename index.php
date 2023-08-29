@@ -18,6 +18,7 @@
 			<a href="" class="m"><i class='bx bx-analyse' ></i> О нас</a>
 			<a href="" class="m"><i class='bx bx-message-square-dots' ></i> Контакты</a>
 			<a href="" class="m"><i class='bx bx-group' ></i> Jobs</a>
+			<a href="" class="m e"><i class='bx bx-exit'></i> Exit</a>
 		</nav>
 	</div></i>
 
@@ -29,6 +30,7 @@
 			<a href="" class="m">О нас</a>
 			<a href="" class="m">Контакты</a>
 			<a href="" class="m">Jobs</a>
+
 		</nav>
 	</div>
 		
