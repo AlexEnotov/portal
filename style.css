@@ -271,7 +271,7 @@ body {
 }
 
 @media only screen and (max-width: 876px) {
-	.main-content .news-blocks {
+	.main-content .news-blocks, .main-content .blocks {
 		justify-content: none;
 		display: inline-block;
 	}
