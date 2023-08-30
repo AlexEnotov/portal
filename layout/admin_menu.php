@@ -5,7 +5,7 @@
 			<a href="/views/admin/create_news.php" class="m"><i class='bx bx-plus' ></i> Создать новость</a>
 			<a href="" class="m"><i class='bx bxs-user' ></i> Пользователи</a>
 			
-			<a href="views/admin-panel.php" class="m"><i class='bx bx-shield-quarter' style='color:var(--primary);'></i> Админка</a>
+			<a href="/views/admin.php" class="m"><i class='bx bx-shield-quarter' style='color:var(--primary);'></i> Админка</a>
 			<a href="" class="m e"><i class='bx bx-exit'></i> Exit</a>
 		</nav>
 	</div></i>

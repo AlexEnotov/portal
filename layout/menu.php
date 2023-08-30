@@ -6,7 +6,7 @@
 			<a href="" class="m"><i class='bx bx-analyse' ></i> О нас</a>
 			<a href="" class="m"><i class='bx bx-message-square-dots' ></i> Контакты</a>
 			<a href="" class="m"><i class='bx bx-group' ></i> Jobs</a>
-			<a href="views/admin.php" class="m"><i class='bx bx-shield-quarter' style='color:var(--primary);'></i> Админка</a>
+			<a href="/views/admin.php" class="m"><i class='bx bx-shield-quarter' style='color:var(--primary);'></i> Админка</a>
 			<a href="" class="m e"><i class='bx bx-exit'></i> Exit</a>
 		</nav>
 	</div></i>
