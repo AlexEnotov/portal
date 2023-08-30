@@ -15,7 +15,7 @@
 	<div class="news-one">
 		<div class="head-banner"><img src="banner.jpg" alt=""></div>
 	</div>
-	<div class="news-blocks">
+	<div class="blocks">
 		<div class="block">
 			<div class="header-c">
 				<h2>Какое-то название</h2>
