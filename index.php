@@ -54,6 +54,9 @@
 
 		</div>
 	</div>
+	<div class="other-blocks">
+		
+	</div>
 </div>		
 
 

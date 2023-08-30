@@ -1,8 +1,8 @@
 <div class="menu">
 		<nav>
 			<div class="logo"></div>
-			<a href="" class="m"><i class='bx bxs-dashboard' ></i> Главная</a>
-			<a href="" class="m"><i class='bx bx-store-alt' ></i> Новости</a>
+			<a href="/" class="m"><i class='bx bxs-dashboard' ></i> Главная</a>
+			<a href="/views/news.php" class="m"><i class='bx bx-store-alt' ></i> Новости</a>
 			<a href="" class="m"><i class='bx bx-analyse' ></i> О нас</a>
 			<a href="" class="m"><i class='bx bx-message-square-dots' ></i> Контакты</a>
 			<a href="" class="m"><i class='bx bx-group' ></i> Jobs</a>

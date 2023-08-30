@@ -184,7 +184,11 @@ body {
 }
 .main-content .news-blocks {
 	margin-top: 10px;
-	display: flex;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto ;
+	grid-auto-flow: row;
+	gap: 10px;
 	justify-content: space-between;
 	width: 100%;
 	
@@ -196,6 +200,7 @@ body {
 	color: var(--dark);
 	margin: auto;
 /*	width: 33%;*/
+	
 	height: auto;
 	margin: 10px;
 
@@ -262,4 +267,10 @@ body {
 		
 		width: 100%;
 	}
+}
+.main-content .title {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
 }
