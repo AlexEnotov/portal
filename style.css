@@ -152,7 +152,7 @@ body {
 	border-bottom: 5px solid var(--primary);
 	transition: all 0.3s ease;
 }  
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 876px) {
 	.menu2 nav a.m {
     display: none !important;
 	}
@@ -208,4 +208,15 @@ body {
 	padding: 15px;
 	height: 100%;
 	text-align: center;
+}
+
+@media only screen and (max-width: 876px) {
+	.main-content .news-blocks {
+		justify-content: none;
+		display: inline-block;
+	}
+	.main-content .news-blocks .block {
+		
+		width: 100%;
+	}
 }
