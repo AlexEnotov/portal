@@ -101,11 +101,21 @@ body {
 	color:var(--danger);
 	
 }
+.bar {
+	display: none;
+	position: fixed;
+	top:15px;
+	left:20px;
+	z-index: 3000;
+	color: red;
+}
+
 @media only screen and (max-height: 876px) {
 	.menu nav a.m.e {
 	margin-top:0;
 	color:var(--danger);
 	}
+	
 }
 
 
@@ -160,7 +170,12 @@ body {
 		width: 100%;
 		transition: all 0.3s ease;
 
-}
+	}
+	.bar {
+		display: flex;
+	}
+
+
 }
 
 .main-content {
@@ -292,6 +307,8 @@ body {
 	text-align: center;
 	justify-content: center;
 }
+
+
 
 
 	
