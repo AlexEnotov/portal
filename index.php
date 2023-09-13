@@ -55,7 +55,7 @@
 		</div>
 
 		<div class="block_news2">
-			<div class="header">Актуальные новости</div>
+			<div class="header"><b>Актуальные новости</b></div>
 			<div class="new_n">
 				<div class="title">Внимание коллеги! Корпоративное мероприятие 24 сентября!</div>
 				<div class="created">13.09.2023</div>

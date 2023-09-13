@@ -16,6 +16,7 @@
 	--light-success: #bbf7d0;
 	--blue: #3b67a6;
 	--white: #fff;
+	--light-grey: #d3d3d3;
 }	
 
 *{
@@ -52,7 +53,7 @@ body {
 	color: var(--blue);
 	justify-content: center;
 	align-items: center;
-	border-right: 1px solid lightgrey;
+	border-right: 1px solid var(--light-grey);
 	transition: all 0.3s ease;
 	font-weight: 400;
 	font-size: 17px;
@@ -158,7 +159,7 @@ body {
 	width: 100%;
 	height: 50px;
 	color: var(--blue);
-	border-bottom: 1px solid lightgrey;
+	border-bottom: 1px solid var(--light-grey);
 	background: var(--white); !important;
 }
 .menu2 nav{
@@ -259,14 +260,17 @@ body {
 	height: 260px;
 	background: var(--white);
 	border-radius: 10px;
-	border: 1px solid lightgrey;
+	border: 1px solid var(--light-grey);
 }
 .content .banner-a {
 	width: 100%;
 	height: auto;
 	background: var(--white);
 	border-radius: 10px;
-	border: 1px solid lightgrey;
+	border: 1px solid var(--light-grey);
+}
+.content .banner-a h2 {
+	color: var(--blue);
 }
 .content .block_news {
 	display: inline-block;
@@ -275,7 +279,7 @@ body {
 	min-height: 260px;
 	background: var(--white);
 	border-radius: 10px;
-	border: 1px solid lightgrey;
+	border: 1px solid var(--light-grey);
 }
 .content .block_news2 {
 	display: inline-block;
@@ -285,12 +289,13 @@ body {
 	min-height: 500px;
 	background: var(--white);
 	border-radius: 10px;
-	border: 1px solid lightgrey;
+	border: 1px solid var(--light-grey);
 }
 .content .block_news2 .header {
 	font-size: 25px;
 	text-align: center;
 	padding: 10px;
+	color: var(--blue);
 }
 .content .block_news2 .title{
 	font-size: 22px;
@@ -320,11 +325,12 @@ body {
 	height: 400px;
 	background: var(--white);
 	border-radius: 10px;
-	border: 1px solid lightgrey;
+	border: 1px solid var(--light-grey);
 }
 .content .min-block .min-block-c1 .title {
 	padding: 20px;
 	font-size: 20px;
+	color: var(--blue);
 	text-align: left;
 }
 .content .min-block .min-block-c1 .b-content {
@@ -337,11 +343,13 @@ body {
 	margin: 20px 0 20px 0 ;
 	background: var(--white);
 	border-radius: 10px;
-	border: 1px solid lightgrey;
+	border: 1px solid var(--light-grey);
+
 }
 .content .min-block .min-block-c2 .title {
 	padding: 20px;
 	font-size: 20px;
+	color: var(--blue);
 	text-align: left;
 }
 .content .min-block .min-block-c2 .b-content {
