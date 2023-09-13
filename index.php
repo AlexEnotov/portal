@@ -21,7 +21,9 @@
 					<button class="btn2"><b>ОБЪЯВЛЕНИЕ</b></button>
 					<button class="btn3"><b>СОБЫТИЕ</b></button>
 				</div>
-				<textarea class="ta active" name="qwe" id="q" cols="103%" rows="5%" placeholder="Тут какой-то текст..."></textarea>
+				<div class="textarea">
+					<textarea class="ta active" name="qwe" id="q"  placeholder="Тут какой-то текст..."></textarea>
+				</div>
 				<button class="btn"><b>ОТПРАВИТЬ</b></button>
 			</form>
 		</div>

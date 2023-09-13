@@ -184,6 +184,7 @@ body {
 }
 .menu2 nav div.profile:hover {
 	background: var(--grey);
+	cursor: pointer;
 }
 .menu2 nav div.child .item:hover {
 	background: var(--grey);
@@ -267,7 +268,7 @@ body {
 	display: inline-block;
 	margin: 20px 20px 0 0 ;
 	width: 72%;
-	height: 260px;
+	min-height: 260px;
 	background: var(--white);
 	border-radius: 10px;
 	border: 1px solid lightgrey;
@@ -359,7 +360,7 @@ body {
 	background: var(--primary);
 	color: var(--light);
 	float: right;
-
+	margin-bottom: 10px;
 
 }
 .btn_n {
@@ -437,7 +438,11 @@ body {
 	cursor: pointer;
 	background: var(--blue);
 }
-textarea.ta {
+.textarea textarea.ta {
+	box-sizing:border-box;
+	min-width: 100%;
+	min-height: 140px;
+	max-height: 300px;
 	border-radius: 10px;
 	padding: 18px;
 	font-size: 15px;
@@ -445,4 +450,10 @@ textarea.ta {
 	margin-bottom: 10px;
 	border:none;
 	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
+.textarea {
+	display: flex;
+	width: 100%;
+	height: 80%;
+	
 }
