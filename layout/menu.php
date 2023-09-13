@@ -7,11 +7,11 @@
 			<div class="m"> 
 				<div class="title" onclick="openbox('c1');openboximg('i1');"><i class='bx bx-food-menu'></i><p>Про нас</p><i class='bx bx-chevron-left s' id='i1'></i></div>
 				<div class="child" id="c1" style="display: none; height: 0%;">
-					<a href="/views/about/наш_проект.php"><div class="item">Наш проект</div></a>
-					<a href="/views/about/о_компании.php"><div class="item">О Компании</div></a>
+					<a href="/views/about/Наш_проект.php"><div class="item">Наш проект</div></a>
+					<a href="/views/about/О_компании.php"><div class="item">О Компании</div></a>
 					<a href=""><div class="item">Лидеры Компании</div></a>
 					<a href=""><div class="item">Сотрудники</div></a>
-					<a href="/views/about/миссия_компании.php"><div class="item">Миссия Компании</div></a>
+					<a href="/views/about/Миссия_компании.php"><div class="item">Миссия Компании</div></a>
 				</div>
 			</div>
 			<div class="m"> 
