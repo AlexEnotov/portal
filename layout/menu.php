@@ -9,38 +9,38 @@
 				<div class="child" id="c1" style="display: none; height: 0%;">
 					<a href="/views/about/Наш_проект.php"><div class="item">Наш проект</div></a>
 					<a href="/views/about/О_компании.php"><div class="item">О Компании</div></a>
-					<a href=""><div class="item">Лидеры Компании</div></a>
-					<a href=""><div class="item">Сотрудники</div></a>
+					<a href="/views/about/Лидеры_компании.php"><div class="item">Лидеры Компании</div></a>
+					<a href="/views/about/Сотрудники.php"><div class="item">Сотрудники</div></a>
 					<a href="/views/about/Миссия_компании.php"><div class="item">Миссия Компании</div></a>
 				</div>
 			</div>
 			<div class="m"> 
 				<div class="title" onclick="openbox('c2');openboximg('i2');"><i class='bx bx-news' ></i><p>Новости</p><i class='bx bx-chevron-left s' id='i2'></i></div>
 				<div class="child" id="c2" style="display: none; height: 0%;">
-					<a href=""><div class="item">Новости и достижения</div></a>
-					<a href=""><div class="item">Поздравления</div></a>
-					<a href=""><div class="item">Опросы и конкурсы</div></a>
-					<a href=""><div class="item">Пятничные мемы</div></a>
+					<a href="/views/news/Новости_и_достижения.php"><div class="item">Новости и достижения</div></a>
+					<a href="/views/news/Поздравления.php"><div class="item">Поздравления</div></a>
+					<a href="/views/news/Опросы_и_конкурсы.php"><div class="item">Опросы и конкурсы</div></a>
+					<a href="/views/news/Пятничные_мемы.php"><div class="item">Пятничные мемы</div></a>
 				</div>
 			</div>
 			<div class="m"> 
 				<div class="title" onclick="openbox('c3');openboximg('i3');"><i class='bx bx-bookmark-alt-plus'></i><p>Для сотрудников</p><i class='bx bx-chevron-left s' id='i3'></i></div>
 				<div class="child" id="c3" style="display: none; height: 0%;">
-					<a href=""><div class="item">Организационная структура</div></a>
-					<a href=""><div class="item">Справочник</div></a>
-					<a href=""><div class="item">Институт наставничества</div></a>
+					<a href="/views/staff/Организационная_структура.php"><div class="item">Организационная структура</div></a>
+					<a href="/views/staff/Справочник.php"><div class="item">Справочник</div></a>
+					<a href="/views/staff/Институт_наставничества.php"><div class="item">Институт наставничества</div></a>
 				</div>
 			</div>
 			<div class="m"> 
 				<div class="title" onclick="openbox('c4');openboximg('i4');"><i class='bx bx-file' ></i><p>Документы</p><i class='bx bx-chevron-left s' id='i4'></i></div>
 				<div class="child" id="c4" style="display: none; height: 0%;">
-					<a href=""><div class="item">Кадровые документы</div></a>
-					<a href=""><div class="item">ДМС</div></a>
-					<a href=""><div class="item">Программа "Знаю профессионала"</div></a>
+					<a href="/views/documents/Кадровые_документы.php"><div class="item">Кадровые документы</div></a>
+					<a href="/views/documents/ДМС.php"><div class="item">ДМС</div></a>
+					<a href="/views/documents/Программа_знаю_профессионала.php"><div class="item">Программа "Знаю профессионала"</div></a>
 				</div>
 			</div>
-			<a href="" class="m"><i class='bx bx-extension' ></i>Мысли и факты</a>
-			<a href="/views/admin.php" class="m"><i class='bx bx-shield-quarter' style='color:var(--primary);'></i>Настройки</a>
+			<a href="/views/Мысли_и_факты.php" class="m"><i class='bx bx-extension' ></i>Мысли и факты</a>
+			<a href="/views/Настройки.php" class="m"><i class='bx bx-shield-quarter' style='color:var(--primary);'></i>Настройки</a>
 			<a href="" class="m e"><i class='bx bx-exit'></i>Выход</a>
 		</nav>
 	</div></i>
