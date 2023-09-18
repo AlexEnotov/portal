@@ -49,11 +49,11 @@
 		<nav>
 			<div class="logo">Портал ртк-цд</div>
 			<div class="profile" onclick="openbox('c5');openboximg('i5')">
-				<img src="https://sun6-23.userapi.com/s/v1/ig1/VQtoKSyYexj6lFKV-E2_-X-UsVOASLNcVMnW7MfkGG6CuphcN2EaY-q4PPy6KQlJ6KuALCjA.jpg?size=2002x2002&quality=96&crop=0,0,2002,2002&ava=1" alt=""  style="width: 35px "/> 
+				<img src="https://papik.pro/uploads/posts/2023-03/1678102728_papik-pro-p-risunki-dlya-profilya-krutie-avatarki-4.jpg" alt="" /> 
 					<div class="title">Дикарев А.А. <i class='bx bx-chevron-left s' id="i5"></i></div>
 			</div>
-			<div class="child" id="c5" style="display: none;padding: 5px;  position: fixed;right: 0;top:50px; width: 220px; background: var(--white); border: 1px solid lightgrey;">
-					<a href="#"><div class="item">Профиль</div></a>
+			<div class="child" id="c5" style="display: none;">
+					<a href="/views/profile/user.php"><div class="item">Профиль</div></a>
 					<a href="#"><div class="item">Записи</div></a>
 					<a href="#"><div class="item">Выйти</div></a>
 				</div>
