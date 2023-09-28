@@ -12,8 +12,8 @@
 	<div class="content">
 		<div class="banner-a">
 			<div style="font-size: 18px;padding: 0 20px 5px 20px; text-align:justify;white-space: break-spaces;">
-				<h2 style="text-align: center;"> </h2>
-				
+				<h2 style="text-align: center;">Организационная структура</h2>
+				<img src="../../img/orgs_new.png" alt="" style="width: 100%;">
 
 			</div>
 		</div>

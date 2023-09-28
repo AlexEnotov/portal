@@ -12,7 +12,7 @@
 	<div class="content">
 		<div class="banner-a">
 			<div style="font-size: 18px;padding: 0 20px 5px 20px; text-align:justify;white-space: break-spaces;">
-				<h2 style="text-align: center;"> </h2>
+				<h2 style="text-align: center;">Кадровые документы</h2>
 				
 
 			</div>
